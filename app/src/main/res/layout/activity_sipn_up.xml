@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.auth.SipnUpActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="392dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="@string/registrate_aqui"
+        android:textColor="@color/rojo"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextnombre"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:hint="@string/nombre"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="10dp"
+                tools:layout_editor_absoluteY="101dp" />
+
+            <EditText
+                android:id="@+id/editText2apelli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/apellido"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="206dp"
+                tools:layout_editor_absoluteY="108dp" />
+
+            <EditText
+                android:id="@+id/editText3ident"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/identificacion"
+                android:inputType="number"
+                tools:layout_editor_absoluteX="10dp"
+                tools:layout_editor_absoluteY="159dp" />
+
+            <EditText
+                android:id="@+id/editTextCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/correo"
+                android:inputType="textEmailAddress"
+                tools:layout_editor_absoluteX="10dp"
+                tools:layout_editor_absoluteY="214dp" />
+
+            <EditText
+                android:id="@+id/editTextUsuario2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/usuario"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="10dp"
+                tools:layout_editor_absoluteY="269dp" />
+
+            <EditText
+                android:id="@+id/editTextPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/contrasena"
+                android:inputType="textPassword"
+                tools:layout_editor_absoluteX="10dp"
+                tools:layout_editor_absoluteY="324dp" />
+
+            <EditText
+                android:id="@+id/editTextPass2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/confirmar_contrasena"
+                android:inputType="textPassword"
+                tools:layout_editor_absoluteX="10dp"
+                tools:layout_editor_absoluteY="379dp" />
+
+            <EditText
+                android:id="@+id/editTextCiudad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/ciudad"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="10dp"
+                tools:layout_editor_absoluteY="432dp" />
+
+            <EditText
+                android:id="@+id/editTextDirecc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/direccion"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="10dp"
+                tools:layout_editor_absoluteY="486dp" />
+
+            <EditText
+                android:id="@+id/editTextCelular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/celular"
+                android:inputType="phone"
+                tools:layout_editor_absoluteX="10dp"
+                tools:layout_editor_absoluteY="541dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonReg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/Registro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+    <TextView
+        android:id="@+id/goToLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/txInicio"
+        android:textSize="15dp"
+        android:textColor="@color/rojo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/buttonReg"
+        app:layout_constraintStart_toStartOf="@+id/buttonReg"
+        app:layout_constraintTop_toBottomOf="@+id/buttonReg" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.82" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

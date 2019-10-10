@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Claro Recarga</string>
+    <string name="hint_email">Usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_login">Iniciar Sesión</string>
+    <string name="registrate_aqui">Registrate Aqui</string>
+    <string name="celular">Celular</string>
+    <string name="apellido">Apellido</string>
+    <string name="identificacion">Identificación</string>
+    <string name="nombre">Nombre</string>
+    <string name="correo">Correo</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="direccion">Direccion</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="usuario">Usuario</string>
+    <string name="confirmar_contrasena">Confirmar Contraseña</string>
+    <string name="Registro">Registro</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_prueba">PruebaActivity</string>
+    <string name="title_activity_prueba2">Prueba2Activity</string>
+    <string name="toolbar_title">Inicio</string>
+    <string name="txInicio">Volver al Inicio</string>
+    <string name="txBolsa">Seleccione la Bolsa</string>
+    <string name="txSaldo">Saldo</string>
+    <string name="txComision">Comisión</string>
+    <string name="txIncent">Incetivos</string>
+    <string name="txVoz">Voz</string>
+    <string name="txChat">Chat</string>
+    <string name="txTodoIn">Todo Incluido</string>
+    <string name="txInternet">Internet</string>
+    <string name="txTelevision">Televisión</string>
+    <string name="txMinuteros">Minuteros</string>
+    <string name="txLarggaDistancia">Larga Distancia</string>
+    <string name="txRedes">Apps</string>
+    <string name="txInternetPrepago">Internet Prepago</string>
+    <string name="txValor">Valor</string>
+    <string name="txSelecciones">Presione y Seleccione el Paquete>>>> </string>
+    <string name="txRecargar">Recargar</string>
+    <string name="txLimpiar">Limpiar </string>
+    <string name="txCelular">Digite Celular</string>
+    <string name="txPaquete">Realizar Paquete</string>
+
+
+</resources>
